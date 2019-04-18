@@ -5,19 +5,16 @@ Calculator.prototype.add = function(value1, value2) {
   return value1 + value2;
 };
 
-Calculator.prototype.sub = function(val1, val2)
-{
-	return val1 - val2;
+Calculator.prototype.sub = function(value1, value2){
+	return value1 - value2;
 };
 
-Calculator.prototype.multiply = function(val1, val2)
-{
-	return val1 * val2;
+Calculator.prototype.multiply = function(value1, value2){
+	return value1 * value2;
 };
 
-Calculator.prototype.divide = function(first_argument) 
-{
-	return val1 / val2;
+Calculator.prototype.divide = function(value1, value2) {
+	return value1 / value2;
 };
 
 /*
